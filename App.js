@@ -6,6 +6,7 @@ const app = express();
 const adminroutes = require('./routes/admin');
 const shoproutes = require('./routes/Shop');
 
+
 app.use(bodyParser.urlencoded({extended:true}));
 
 app.use(adminroutes);
